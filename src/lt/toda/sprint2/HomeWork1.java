@@ -116,7 +116,7 @@ public class HomeWork1 {
         int length = numbers.length;
 
         System.out.println("\nmasyvo rikiavimas pagal 'insertion sort algoritmą': ");
-        for (int j = 0; j < length - 1; j++) {
+        for (int j = 0; j < length; j++) {
             int minIndex = j;
             for (int k = j + 1; k < length; k++)
                 if (numbers[k] < numbers[minIndex]) {
