@@ -1,5 +1,6 @@
 package lt.toda.sprint2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class HomeWork1 {
@@ -87,7 +88,8 @@ public class HomeWork1 {
         // =================================================================
         System.out.println("\n\n4. atsakymas:");
 
-        int[] numbers = {17, 33, 41, 54, 89, 67, 38, 48, 2, 6};
+        int[] numbers = {17, 33, 41, 54, 89, 67, 38, 48, 2, 6, 40, 5, 20, 97, 13, 15, 37, 73, 59, 1};
+        int length = numbers.length;
         int sum = 0;
 
         for (int number : numbers) {
@@ -102,9 +104,9 @@ public class HomeWork1 {
 
         sum = 0;
         double average = 0;
-        for (int j = 0; j < numbers.length; j++) {
+        for (int j = 0; j < length; j++) {
             sum += numbers[j];
-            average = (double) sum / numbers.length;
+            average = (double) sum / length;
         }
 
         System.out.println("masyvo reikšmių vidurkis: " + average);
@@ -113,18 +115,53 @@ public class HomeWork1 {
         // =================================================================
         System.out.println("\n6. atsakymas:");
 
-        int length = numbers.length;
+        numbers = new int[]{17, 33, 41, 54, 89, 67, 38, 48, 2, 6, 40, 5, 20, 97, 13, 15, 37, 73, 59, 1};
+        int iterationCounter = 0;
+        int swapCounter = 0;
 
-        System.out.println("\nmasyvo rikiavimas pagal 'insertion sort algoritmą': ");
+        System.out.println("\nmasyvo rikiavimas pagal 'bubble sorting' algoritmą: ");
+        for (i = 0; i < length; i++) {
+            for (int j = 0; j < length - 1; j++) {
+                if (numbers[j] > numbers[j + 1]) {
+                    int temp = numbers[j];
+                    numbers[j] = numbers[j + 1];
+                    numbers[j + 1] = temp;
+                    swapCounter++;
+                }
+                iterationCounter++;
+            }
+        }
+
+        System.out.println(Arrays.toString(numbers));
+        System.out.println("\n\ta. algoritmo atliktų iteracijų kiekis rikiuojant masyvą: " + iterationCounter);
+        System.out.println("\tb. reikšmių sukeitimo kiekis: " + swapCounter);
+
+
+        // =================================================================
+        System.out.println("\n7. atsakymas:");
+
+        numbers = new int[]{17, 33, 41, 54, 89, 67, 38, 48, 2, 6, 40, 5, 20, 97, 13, 15, 37, 73, 59, 1};
+        iterationCounter = 0;
+        swapCounter = 0;
+
+        System.out.println("\nmasyvo rikiavimas pagal 'insertion sort' algoritmą: ");
         for (int j = 0; j < length; j++) {
             int minIndex = j;
-            for (int k = j + 1; k < length; k++)
+            for (int k = j + 1; k < length; k++) {
                 if (numbers[k] < numbers[minIndex]) {
                     minIndex = k;
                 }
-            System.out.print(numbers[minIndex] + " ");
-            numbers[minIndex] = numbers[j];
+                iterationCounter++;
+            }
+            int temp = numbers[j];
+            numbers[j] = numbers[minIndex];
+            numbers[minIndex] = temp;
+            swapCounter++;
         }
+
+        System.out.println(Arrays.toString(numbers));
+        System.out.println("\n\ta. algoritmo atliktų iteracijų kiekis rikiuojant masyvą: " + iterationCounter);
+        System.out.println("\tb. reikšmių sukeitimo kiekis: " + swapCounter);
 
     }
 }
