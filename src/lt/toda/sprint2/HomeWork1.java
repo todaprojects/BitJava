@@ -120,7 +120,7 @@ public class HomeWork1 {
         int swapCounter = 0;
 
         System.out.println("\nmasyvo rikiavimas pagal 'bubble sorting' algoritmą: ");
-        for (i = 0; i < length; i++) {
+        for (i = 0; i < length - 1; i++) {
             for (int j = 0; j < length - 1; j++) {
                 if (numbers[j] > numbers[j + 1]) {
                     int temp = numbers[j];
