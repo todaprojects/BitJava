@@ -166,6 +166,7 @@ public class HomeWork3 {
                 String[] filteredDataArr = filteredData.split("\n");
                 for (String data : filteredDataArr) {
                     bufferedWriter.write(data);
+                    bufferedWriter.write("\n");
                 }
                 System.out.println("\tfiltruoti duomenys sėkmingai išsaugoti faile \"" + filteredPhoneNumbers + "\"\n");
             } catch (Exception e) {
