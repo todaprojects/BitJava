@@ -14,21 +14,21 @@ public class HomeWorkJava4 {
         System.out.println("\tmažiausias skaičius: " + minNumber);
 
 
-        // =================================================================
+        // ==================================================================
         System.out.println("\n2. atsakymas:");
 
         int maxNumber = getMaxNumber(numbers);
         System.out.println("\tdidžiausias skaičius: " + maxNumber);
 
 
-        // =================================================================
+        // ==================================================================
         System.out.println("\n3. atsakymas:");
 
         int sumOfNumbers = getSumOfNumber(numbers);
         System.out.println("\tmasyvo skaičių suma: " + sumOfNumbers);
 
 
-        // =================================================================
+        // ==================================================================
         System.out.println("\n4. atsakymas:");
 
         int[] sortedNumbers = getSortedNumber(numbers);
