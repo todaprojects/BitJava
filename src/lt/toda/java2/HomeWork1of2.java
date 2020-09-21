@@ -1,6 +1,6 @@
 package lt.toda.java2;
 
-public class Task1And2 {
+public class HomeWork1of2 {
     public static void main(String[] args) {
 
         System.out.println("\n------------------------ Primityvūs duomenų tipai ------------------------");

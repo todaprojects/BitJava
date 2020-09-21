@@ -2,7 +2,7 @@ package lt.toda.java2;
 
 import java.util.Scanner;
 
-public class Task3 {
+public class HomeWork2of2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
