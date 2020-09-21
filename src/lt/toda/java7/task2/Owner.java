@@ -1,7 +1,7 @@
 package lt.toda.java7.task2;
 
 class Owner {
-    private String name;
+    private final String name;
 
     public Owner(String name) {
         this.name = name;
