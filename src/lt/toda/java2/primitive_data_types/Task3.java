@@ -1,8 +1,8 @@
-package lt.toda.sprint1;
+package lt.toda.java2.primitive_data_types;
 
 import java.util.Scanner;
 
-public class HomeWork2 {
+public class Task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
