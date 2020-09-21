@@ -1,4 +1,4 @@
-package lt.toda.OOPbasicsEncapsulation.task1;
+package lt.toda.java6.task1;
 
 public class Main {
     public static void main(String[] args) {

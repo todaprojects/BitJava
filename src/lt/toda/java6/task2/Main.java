@@ -1,4 +1,4 @@
-package lt.toda.OOPbasicsEncapsulation.task2;
+package lt.toda.java6.task2;
 
 import java.util.Scanner;
 

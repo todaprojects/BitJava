@@ -1,4 +1,4 @@
-package lt.toda.OOPbasicsEncapsulation.taskAtClass;
+package lt.toda.java6.taskAtClass;
 
 public class Dog {
     private String name;
