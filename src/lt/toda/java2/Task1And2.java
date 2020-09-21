@@ -1,4 +1,4 @@
-package lt.toda.java2.primitive_data_types;
+package lt.toda.java2;
 
 public class Task1And2 {
     public static void main(String[] args) {

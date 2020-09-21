@@ -1,8 +1,8 @@
-package lt.toda.sprint2;
+package lt.toda.java4;
 
 import java.util.Arrays;
 
-public class HomeWork2 {
+public class HomeWorkJava4 {
     public static void main(String[] args) {
 
         int[] numbers = {17, 33, 41, 54, 89, -67, 38, 48, 2, 6, 40, -5, 20, 97, 13, 15, -37, 73, 59, 1};

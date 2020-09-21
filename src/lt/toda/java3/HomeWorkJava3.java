@@ -1,9 +1,9 @@
-package lt.toda.sprint2;
+package lt.toda.java3;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class HomeWork1 {
+public class HomeWorkJava3 {
     public static void main(String[] args) {
         System.out.println("\n------------------------ Masyvai ------------------------");
         System.out.println("\n1. atsakymas:");

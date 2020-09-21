@@ -1,9 +1,9 @@
-package lt.toda.sprint2;
+package lt.toda.java5;
 
 import java.io.*;
 import java.util.Scanner;
 
-public class HomeWork3 {
+public class HomeWorkJava5 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {

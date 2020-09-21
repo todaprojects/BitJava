@@ -1,4 +1,4 @@
-package lt.toda.java2.primitive_data_types;
+package lt.toda.java2;
 
 import java.util.Scanner;
 
