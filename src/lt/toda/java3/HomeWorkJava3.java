@@ -162,6 +162,5 @@ public class HomeWorkJava3 {
         System.out.println(Arrays.toString(numbers));
         System.out.println("\n\ta. algoritmo atliktų iteracijų kiekis rikiuojant masyvą: " + iterationCounter);
         System.out.println("\tb. reikšmių sukeitimo kiekis: " + swapCounter);
-
     }
 }
