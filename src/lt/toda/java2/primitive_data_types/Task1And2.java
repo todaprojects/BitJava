@@ -1,6 +1,6 @@
-package lt.toda.sprint1;
+package lt.toda.java2.primitive_data_types;
 
-public class HomeWork1 {
+public class Task1And2 {
     public static void main(String[] args) {
 
         System.out.println("\n------------------------ Primityvūs duomenų tipai ------------------------");
