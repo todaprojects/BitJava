@@ -1,4 +1,4 @@
-package lt.toda.sprint1;
+package lt.toda.sprint1_main_task;
 
 public class HelloWorld {
     public static void main(String[] args) {
