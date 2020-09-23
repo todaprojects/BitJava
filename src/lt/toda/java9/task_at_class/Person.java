@@ -1,6 +1,6 @@
 package lt.toda.java9.task_at_class;
 
-public class Person {
+class Person {
     private String name;
 
     public Person(String name) {
