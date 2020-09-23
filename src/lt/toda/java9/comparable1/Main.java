@@ -1,12 +1,12 @@
-package lt.toda.java9.comparable;
+package lt.toda.java9.comparable1;
 
 public class Main {
 
-    static void sort(CustomComparable_1_feature[] array) {
+    static void sort(CustomComparable[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = 0; j < array.length - 1 - i; j++) {
                 if (array[j].compare(array[j + 1])) {
-                    CustomComparable_1_feature temporary = array[j + 1];
+                    CustomComparable temporary = array[j + 1];
                     array[j + 1] = array[j];
                     array[j] = temporary;
                 }

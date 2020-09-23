@@ -1,6 +1,6 @@
-package lt.toda.java9.comparable;
+package lt.toda.java9.comparable1;
 
-class Person implements CustomComparable_1_feature {
+class Person implements CustomComparable {
     private int id;
     private String name;
 
@@ -20,7 +20,7 @@ class Person implements CustomComparable_1_feature {
     }
 
     @Override
-    public boolean compare(CustomComparable_1_feature p) {
+    public boolean compare(CustomComparable p) {
         return this.id > ((Person) p).getId();
     }
 }
