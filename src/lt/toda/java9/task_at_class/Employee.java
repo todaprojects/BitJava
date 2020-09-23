@@ -1,7 +1,7 @@
 package lt.toda.java9.task_at_class;
 
-class Emploee extends Person {
-    public Emploee(String name) {
+class Employee extends Person {
+    public Employee(String name) {
         super(name);
     }
 }

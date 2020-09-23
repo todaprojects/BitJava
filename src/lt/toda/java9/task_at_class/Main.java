@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Person[] persons = new Person[] {
                 new Person("PersonName"),
-                new Emploee("EmployeeName"),
+                new Employee("EmployeeName"),
                 new Janitor("JanitorName")
         };
 
