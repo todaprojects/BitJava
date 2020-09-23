@@ -1,4 +1,4 @@
-package lt.toda.java9;
+package lt.toda.java9.task_at_class;
 
 public class Main {
     public static void main(String[] args) {
